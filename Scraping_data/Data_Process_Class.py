@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup as bs
 import re
-from Scraping_data.Products_infos_Functions import Products_Infos
+from Products_infos_Functions import Products_Infos
 
 
 
