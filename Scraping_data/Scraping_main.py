@@ -1,4 +1,4 @@
-from Scraping_data.System_core import System_Core
+from System_core import System_Core
 
 
 core = System_Core(1)

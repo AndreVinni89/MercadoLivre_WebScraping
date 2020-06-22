@@ -4,9 +4,9 @@ from bs4 import BeautifulSoup as bs
 from time import sleep
 from selenium.webdriver.support.ui import Select
 import re
-from Scraping_data.Scraping_Class import Scraping
-from Scraping_data.Data_Process_Class import Data_Process
-from Scraping_data.dbfuncs import DataBase
+from Scraping_Class import Scraping
+from Data_Process_Class import Data_Process
+from dbfuncs import DataBase
 import pymysql
 
 
