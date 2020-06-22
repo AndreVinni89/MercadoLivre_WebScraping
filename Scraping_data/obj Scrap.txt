@@ -1,9 +1,0 @@
-itens a serem extraido:
-OK Imagem
-OK Link
-OK Preço
-- Parcelamento
-- Com ou sem juros
-OK Frete Gratis
-OK Titulo do anuncio
-
