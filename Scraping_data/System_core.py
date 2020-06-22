@@ -36,8 +36,11 @@ class System_Core:
 
         while cont_pages < self.cont:
             if not self.db:
-                db = DataBase('localhost', 'root', '24250625')
-                self.db = True
+                try:
+                    db = DataBase('localhost', 'root', '')
+                    self.db = True
+                except:
+                    print("Failed to connect with Database")
 
             scrap.debug()
             print('[Scrap] Debugging...')
