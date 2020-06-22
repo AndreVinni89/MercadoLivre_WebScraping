@@ -13,5 +13,5 @@
  
 To realize the web scraping run Scraping_main.py
 and the content will be saved in the MySQL database:  
-![alt text](img/DB.png)
+![alt text](img/DB.jpg)
  
