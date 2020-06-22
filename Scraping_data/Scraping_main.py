@@ -1,7 +1,9 @@
 from Scraping_data.System_core import System_Core
 
+
 core = System_Core(1)
 
+#list of the products to search
 lista_teste = ['Jogos', 'Liquidificador', 'Cadeiras', 'mesas', 'camisas', 'Roupas', 'Animais', 'Fones de ouvido', 'Motos', 'mouse']
 
 

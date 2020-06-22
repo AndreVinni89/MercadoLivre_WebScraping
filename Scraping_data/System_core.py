@@ -38,6 +38,7 @@ class System_Core:
             if not self.db:
                 try:
                     db = DataBase('localhost', 'root', '')
+                    db.createDatabase()
                     self.db = True
                 except:
                     print("Failed to connect with Database")
